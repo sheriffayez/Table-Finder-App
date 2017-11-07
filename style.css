@@ -1,0 +1,102 @@
+body {
+    background-color: #eee;
+}
+
+header {
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    color: #E34E45;
+    font-weight: normal,600;
+    font-family: Roboto Mono, Rubik;
+}
+p{
+    font-size: 20px;
+    font-family: Roboto Mono, Rubik;
+    font-weight: normal,600;
+}
+.tablecount {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 100px;   
+}
+
+.table {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border-radius: 50%;
+    text-align: center;  
+}
+
+#tables {
+    position: absolute;
+    margin: auto;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+    
+}
+
+.available {
+    background-color: #dcdcdc;
+}
+
+.reserved {
+    background-color: #ADAAAA;
+}
+
+#reservation-form {
+    position: absolute;
+    margin: auto;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#phone,#name,#guest{
+    width: 250px;
+    padding: 12px;   
+    border: none;
+    border-bottom: solid ;
+    margin-top: 12px; 
+    margin-bottom: 16px;
+    margin: 0,auto;
+    
+}
+
+.save{
+    background-color: #008000;
+    color: white;
+    border: none;
+    padding: 12px 130px;
+    border-radius: none;
+    align-items: center;
+    display: block;
+    margin:0 auto;
+}
+
+
+.exit {
+    float: right;
+    padding-right: 12px;
+}
