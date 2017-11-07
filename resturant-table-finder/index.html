@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Table Reservation</title>
+</head>
+<body>
+    <header>
+        <h1 class="finder" >Table Finder</h1>
+        <p class="pick" >Pick your table now</p>
+    </header>
+    <div id="tables" >
+        <div class="tablecount" >
+            <div class="table available">1</div>
+            <div class="table reserved">2</div>
+            <div class="table available">3</div>
+        </div>
+        <div class="tablecount" >
+            <div class="table available">4</div>
+            <div class="table available">5</div>
+            <div class="table reserved">6</div>
+        </div>
+        <div class="tablecount" >
+            <div class="table available">7</div>
+            <div class="table available">8</div>
+            <div class="table available">9</div>
+        </div>
+    </div>
+
+    <div id="reservation-form">
+        <div class="exit">
+            <p>X</p>
+        </div>
+        <h2>New Reservation</h2>
+        <p>Table Number:</p>
+        <form action="">
+            <input type="text" id="name" name="customer" ></br>
+            <input type="text" id="phone" name="phone" ></br>
+            <input type="text" id="guest" name="number of guest" ></br>
+            
+        </form>
+      <button class="save">Save</button>    
+
+    </div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" ></script>
+<script src="script.js" ></script>
+</body>
+</html>
