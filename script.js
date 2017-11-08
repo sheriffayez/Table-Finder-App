@@ -1,6 +1,6 @@
  $(document).ready(function(){
 
-var ogText;
+var Text;
 var name;
 var container;
 var userName;
@@ -17,11 +17,11 @@ $("form").hide();
 $(".tables").on("mouseenter",function(event) {
     name = $(this).attr("name");
     partySize = $(this).attr("guest");
-    ogText = $(this).text();
+    Text = $(this).text();
     $(this).text(name);
     
 }).on("mouseleave", function(event){
-    $(this).text(ogtext);
+    $(this).text(text);
 });
 
 
@@ -32,18 +32,18 @@ $(".available").on("click", function(event){
 
 //What is this doing?
 $(".save").on("click", function(event){
-    usersName = $("#name").val();
+    usersName = $("name").val();
     $("name").val("");
     
-    container.attr("#name",usersName);
-    phone = $("#phone").val();
+    container.attr("name",usersName);
+    phone = $("phone").val();
     $("phone").val("");
     
-    container.attr("#phone", phone);
-    partySize = $("#guest").val();
+    container.attr("phone", phone);
+    partySize = $("guest").val();
     $("#guest").val("");
    
-    container.attr("#guest",guest);
+    container.attr("guest",guest);
     container.addClass("reserved");
     $("#reservation-form").hide();
     $(".reserved").off("click");
