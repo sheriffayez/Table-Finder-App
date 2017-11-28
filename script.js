@@ -54,37 +54,6 @@ $(".exit").on("click", function(){
 });
 
 
- //     $(".available").click( function(){
- //         $("#reservation-form").fadeIn(1000);
- //     });
-
- //     $(".exit").click(function(){
- //         $("#reservation-form").css("display", "none");
-
- //      });
-    
- // $(".save").click(function(){
-
- // 	$("#reservation-form").fadeOut(1000);
- // });
- // (".reserved").on("mouseover"),function(){
- // 	$(".reserved").css("cursor", "not-allowed");
- // };
- //  $(".available").on("mouseover",function(){
- //  	$(this).css("crusor", "pointer");
- //  });
-
- //  $(".save").on("click",function(){
- //  	$(".available")addClass("reserved")
-  // });
- // user provides input 
- // on save grab that info and save it - 
- // after you save it , the form has to close 
-  //on hover info appers  
-
-  //Comment Your Code
-  //Write down your questions (What. Why, When, How)
-  //When in class, if your question is unanswered, write it down
-
+ 
 
    
